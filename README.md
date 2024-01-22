@@ -9,9 +9,9 @@ Dicer outputs common variants present in multiple VCF (Variant Call Format) file
 - `tabix` 
 
 ## Arguments
--O, --output_file: Path to the output VCF file.
+-O: Path to the output VCF file.
 
--I, --input_vcf_files: List of input VCF files to compare.
+-I: List of input VCF files to compare.
 
 ## Installation
 Dicer does not need installation beyond the required libraries. All you need to do is clone the repo and cd into dicer like so:
@@ -40,7 +40,7 @@ python dicer.py -I toy1.vcf.gz toy2.vcf.gz toy3.vcf.gz toy4.vcf.gz -O intersect.
 ```
 
 ## Output
-The script generates a new VCF file containing variants that are common across all input VCF files. The output VCF file is specified using the -O or --output_file option.
+The script generates a new VCF file containing variants that are common across all input VCF files.
 
 ## Notes
 The header of the output VCF file is simply copied over from first input VCF file. This shouldn't be an issue but worth remembering if you run into problems downstream. Equally, the variant lines written to the output come from the first VCF file. The variants must be a match for chrom, pos, ref and alt in all VCFs to be written to the output. If more than one alt is described in the VCF, dicer will only consider the first alt allele. If this is a potential issue, it might be worth decomposing your VCFs before using this tool. 
