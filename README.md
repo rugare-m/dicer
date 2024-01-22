@@ -26,8 +26,9 @@ pip install tabix
 
 
 ## Example Usage 
+```bash
 python dicer.py -I toy1.vcf.gz toy2.vcf.gz toy3.vcf.gz toy4.vcf.gz -O intersect.vcf.gz
-
+```
 
 ## Output
 The script generates a new VCF file containing variants that are common across all input VCF files. The output VCF file is specified using the -O or --output_file option.
