@@ -14,6 +14,13 @@ Dicer outputs common variants present in multiple VCF (Variant Call Format) file
 -I, --input_vcf_files: List of input VCF files to compare.
 
 ## Installation
+```bash
+git clone https://github.com/rugare-m/dicer.git
+```bash
+
+```bash
+cd dicer
+```
 Dicer does not need installation beyond the required libraries. You can install the required libraries with:
 To install the required Python libraries, use the following command:
 ```bash
@@ -23,7 +30,6 @@ and (provided you have conda installed):
 ```bash
 conda install samtools
 ```
-
 
 ## Example Usage 
 ```bash
