@@ -1,7 +1,7 @@
 # Dicer
 
 ## Introduction
-Dicer outputs common variants present in multiple VCF (Variant Call Format) files. The program will index VCF files if no index file (*tbi) is found in the working directory. 
+Dicer outputs common variants present in multiple VCF (Variant Call Format) files. bcftools isec does something similar but Dicer is more user friendly in that it will only output a single VCF of intersecting variants, and Dicer will index any VCF files that need indexing automatically. bcftools isec is more capable, but if you are looking for a simple tool to intersect variants from a set of VCF files, Dicer does the job. 
 
 ## Requirements
 - Python 3.x and above 
@@ -14,10 +14,16 @@ Dicer outputs common variants present in multiple VCF (Variant Call Format) file
 -I, --input_vcf_files: List of input VCF files to compare.
 
 ## Installation
+Dicer does not need installation beyond the required libraries. You can install the required libraries with:
 To install the required Python libraries, use the following command:
 ```bash
 pip install pysam
 ```
+and:
+```bash
+pip install tabix
+```
+
 
 ## Example Usage 
 python dicer.py -I toy1.vcf.gz toy2.vcf.gz toy3.vcf.gz toy4.vcf.gz -O intersect.vcf.gz
