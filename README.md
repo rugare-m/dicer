@@ -12,6 +12,7 @@ This Python script, `common_variants_finder.py`, is designed to identify common 
 To install the required Python libraries, use the following command:
 ```bash
 pip install pysam
+```
 
 ## Usage
 python common_variants_finder.py -O OUTPUT_FILE -I INPUT_VCF_FILES
