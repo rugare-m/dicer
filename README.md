@@ -5,8 +5,8 @@ Dicer outputs common variants present in multiple VCF (Variant Call Format) file
 
 ## Requirements
 - Python 3.x
-- `pysam` library
-- `tabix` command-line tool
+- `pysam` 
+- `tabix` 
 
 ## Arguments
 -O, --output_file: Path to the output VCF file.
