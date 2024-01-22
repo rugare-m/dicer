@@ -16,7 +16,7 @@ Dicer outputs common variants present in multiple VCF (Variant Call Format) file
 ## Installation
 ```bash
 git clone https://github.com/rugare-m/dicer.git
-```bash
+```
 
 ```bash
 cd dicer
