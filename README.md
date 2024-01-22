@@ -10,6 +10,7 @@ Dicer is written to output common variants present in multiple VCF (Variant Call
 
 ## Arguments
 -O, --output_file: Path to the output VCF file.
+
 -I, --input_vcf_files: List of input VCF files to compare.
 
 ## Installation
