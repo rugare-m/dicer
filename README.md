@@ -24,7 +24,7 @@ and:
 ```bash
 cd dicer
 ```
-You can install the required libraries with:
+
 To install the required Python libraries, use the following command:
 ```bash
 pip install pysam
