@@ -1,7 +1,7 @@
 # Dicer
 
 ## Introduction
-Dicer outputs common variants present in multiple VCF (Variant Call Format) files. bcftools isec does something similar but Dicer is more user friendly in that it will only output a single VCF of intersecting variants, and Dicer will index any VCF files that need indexing automatically. bcftools isec is more capable, but if you are looking for a simple tool to intersect variants from a set of VCF files, Dicer does the job. 
+Dicer outputs common variants present in multiple VCF (Variant Call Format) files. [bcftools isec](https://samtools.github.io/bcftools/bcftools.html#isec) does something similar but Dicer is more user friendly in that it will only output a single VCF of intersecting variants, and Dicer will index any VCF files that need indexing automatically. bcftools isec is more capable, but if you are looking for a simple tool to intersect variants from a set of VCF files, Dicer does the job. 
 
 ## Requirements
 - `Python 3.x`
