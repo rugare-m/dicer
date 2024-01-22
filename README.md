@@ -1,7 +1,7 @@
 # Dicer
 
 ## Introduction
-Dicer is written to output common variants present in multiple VCF (Variant Call Format) files. The program will index VCF files if no index file (*tbi) is found in the working directory. 
+Dicer outputs common variants present in multiple VCF (Variant Call Format) files. The program will index VCF files if no index file (*tbi) is found in the working directory. 
 
 ## Requirements
 - Python 3.x and above 
