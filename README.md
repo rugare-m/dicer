@@ -19,9 +19,9 @@ To install the required Python libraries, use the following command:
 ```bash
 pip install pysam
 ```
-and:
+and (provided you have conda installed):
 ```bash
-pip install tabix
+conda install samtools
 ```
 
 
