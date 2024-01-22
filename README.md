@@ -14,14 +14,17 @@ Dicer outputs common variants present in multiple VCF (Variant Call Format) file
 -I, --input_vcf_files: List of input VCF files to compare.
 
 ## Installation
+Dicer does not need installation beyond the required libraries. All you need to do is clone the repo and cd into dicer like so:
+
 ```bash
 git clone https://github.com/rugare-m/dicer.git
 ```
+and:
 
 ```bash
 cd dicer
 ```
-Dicer does not need installation beyond the required libraries. You can install the required libraries with:
+You can install the required libraries with:
 To install the required Python libraries, use the following command:
 ```bash
 pip install pysam
